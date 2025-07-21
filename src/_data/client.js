@@ -1,24 +1,23 @@
 module.exports = {
-    "name": "Splendid Sites Web Designs",
-    "email": "help@splendidsites.com",
-    "phoneForTel": "555-779-4407",
-    "phoneFormatted": "(555) 779-4407",
-    "openingHours": "Mon-Sun: 9am-9pm",
-    "onlineBooking": "https://www.facebook.com/",
+    "name": "Siamese Thai Spa",
+    "email": "ratsilaart@gmail.com",
+    "phoneForTel": "+441617185159",
+    "phoneFormatted": "0161 718 5159",
+    "openingHours": "Mon-Sun: 10am-10pm",
+    "onlineBooking": "https://booksy.com/en-gb/148080_siamease-thai-spa_massage_628476_manchester",
     "address": {
-        "lineOne": "First Address Line",
-        "lineTwo": "Second Address Line",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80206",
-        "country": "US",
-        "mapLink": "https://maps.app.goo.gl/TEdS5KoLC9ZcULuQ6"
+        "lineOne": "48 Faulkner St",
+        "lineTwo": "Ground Floor",
+        "city": "Manchester",
+        "state": "",
+        "zip": "M1 4FH",
+        "country": "United Kingdom",
+        "mapLink": "https://maps.app.goo.gl/NJoHPRmbEmuJoECcA"
     },
     "socials": {
-        "facebook": "https://www.facebook.com/",
-        "instagram": "https://www.instagram.com/",
-        "googleReview": "",
+        "facebook": "https://www.facebook.com/SiameaseThaiSPA/?locale=en_GB",
+        "googleReview": "https://g.page/r/CSXcBC0jVfyAEBM/review",
     },
     //! Make sure you include the file protocol (e.g. https://) and that NO TRAILING SLASH is included
-    "domain": "https://www.example.com"
+    "domain": "https://www.siamease.co.uk"
 };

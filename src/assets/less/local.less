@@ -290,6 +290,7 @@
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
+                border-radius: 1em;
             }
         }
 
@@ -303,15 +304,17 @@
             align-items: center;
             flex-direction: column;
             gap: (12/16rem);
+            
         }
 
         .cs-faq-item {
             list-style: none;
             width: 100%;
-            background-color: #f7f7f7;
+            background-color: var(--sectionColor);
             /* clips all corners of the button that overlap the rounded border */
             overflow: hidden;
             transition: border-bottom 0.3s;
+            border-radius: 1em;
 
             &.active {
                 .cs-button {
@@ -344,7 +347,7 @@
             font-weight: bold;
             /* 20px - 24px */
             padding: clamp(1.25rem, 2vw, 1.5rem);
-            background-color: #f7f7f7;
+            background-color: var(--sectionColor);
             border: none;
             color: var(--headerColor);
             display: block;
@@ -374,6 +377,7 @@
                 /* animate the transform from the left side of the x axis, and the center of the y */
                 transform-origin: left center;
                 transition: transform 0.5s;
+                
             }
 
             &:after {

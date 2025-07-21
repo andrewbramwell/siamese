@@ -9,41 +9,59 @@
             <!--Wrapped logo in wrapper div-->
             <div class="cs-logo-wrapper">
                 <a href="/" class="cs-logo">
-                    <img src="/assets/svgs/logo-white.svg" alt="logo" aria-hidden="true" loading="lazy" decoding="async" width="210" height="80">
+                    <img src="/assets/svgs/logo-d.svg" alt="logo" aria-hidden="true" loading="lazy" decoding="async" width="210" height="80">
                 </a>
             </div>
             <ul class="cs-ul">
                 <li class="cs-li">
-                    <span class="cs-header">Services</span>
+                    <span class="cs-header">Treatments</span>
                 </li>
                 <li class="cs-li">
-                    <a href="/services/semaglutide" class="cs-link">Semaglutide</a>
+                    <a href="{{client.onlineBooking}}" target="_blank" rel="noopener" class="cs-link">Head Massage for Migraine Relief</a>
                 </li>
                 <li class="cs-li">
-                    <a href="/services/dermal-filler" class="cs-link">Dermal Filler</a>
+                    <a href="{{client.onlineBooking}}" target="_blank" rel="noopener" class="cs-link">Head, Neck & Shoulders Massage</a>
+                </li>
+                 <li class="cs-li">
+                    <a href="{{client.onlineBooking}}" target="_blank" rel="noopener" class="cs-link">Traditional Thai Massage</a>
                 </li>
                 <li class="cs-li">
-                    <a href="/services/tirezapetide" class="cs-link">Tirezapetide</a>
+                    <a href="{{client.onlineBooking}}" target="_blank" rel="noopener" class="cs-link">Thai Oil Massage</a>
+                </li>
+                 <li class="cs-li">
+                    <a href="{{client.onlineBooking}}" target="_blank" rel="noopener" class="cs-link">Deep Tissue Massage</a>
                 </li>
                 <li class="cs-li">
-                    <a href="/services/neurotoxins" class="cs-link">Neurotoxins</a>
+                    <a href="{{client.onlineBooking}}" target="_blank" rel="noopener" class="cs-link">Balinese Massage</a>
+                </li>
+                 <li class="cs-li">
+                    <a href="{{client.onlineBooking}}" target="_blank" rel="noopener" class="cs-link">Lymphatic Drainage Massage</a>
                 </li>
             </ul>
             <ul class="cs-ul">
                 <li class="cs-li">
-                    <span class="cs-header">Services</span>
+                    <span class="cs-header">Treatments</span>
                 </li>
                 <li class="cs-li">
-                    <a href="/services/semaglutide" class="cs-link">Semaglutide</a>
+                    <a href="{{client.onlineBooking}}" target="_blank" rel="noopener" class="cs-link">Raindrop Massage</a>
+                </li>
+                 <li class="cs-li">
+                    <a href="{{client.onlineBooking}}" target="_blank" rel="noopener" class="cs-link">Hot Stone Massage</a>
                 </li>
                 <li class="cs-li">
-                    <a href="/services/dermal-filler" class="cs-link">Dermal Filler</a>
+                    <a href="{{client.onlineBooking}}" target="_blank" rel="noopener" class="cs-link">Terahertz Therapy Massage</a>
+                </li>
+                 <li class="cs-li">
+                    <a href="{{client.onlineBooking}}" target="_blank" rel="noopener" class="cs-link">Hot Stone Compress</a>
                 </li>
                 <li class="cs-li">
-                    <a href="/services/tirezapetide" class="cs-link">Tirezapetide</a>
+                    <a href="{{client.onlineBooking}}" target="_blank" rel="noopener" class="cs-link">Four Hands Oil Massage</a>
                 </li>
                 <li class="cs-li">
-                    <a href="/services/neurotoxins" class="cs-link">Neurotoxins</a>
+                    <a href="{{client.onlineBooking}}" target="_blank" rel="noopener" class="cs-link">Facial + Gua Sha Lifting Massage</a>
+                </li>
+                 <li class="cs-li">
+                    <a href="{{client.onlineBooking}}" target="_blank" rel="noopener" class="cs-link">Japanese Head Spa </a>
                 </li>
             </ul>
             <ul class="cs-ul cs-contact-ul">
@@ -63,7 +81,7 @@
                     </a>
                 </li>
                 <li class="cs-li">
-                    <a href="" class="cs-link" target="_blank" rel="noopener">
+                    <a href="{{client.address.mapLink}}" class="cs-link" target="_blank" rel="noopener">
                         <img class="cs-icon" src="/assets/svgs/pin-w.svg" alt="icon" loading="lazy" decoding="async" width="24" height="24" aria-hidden="true">
                         {{client.address.lineOne}}<br>
                         {{client.address.lineTwo}}<br>
@@ -80,38 +98,23 @@
                     <a href="/" class="cs-nav-link">Home</a>
                 </li>
                 <li class="cs-nav-li">
-                    <a href="/about/" class="cs-nav-link">About Us</a>
+                    <a href="/aboutus/" class="cs-nav-link">About Us</a>
                 </li>
                 <li class="cs-nav-li">
-                    <a href="/massages/" class="cs-nav-link">Massages</a>
-                </li>
-                <li class="cs-nav-li">
-                    <a href="/gallery/" class="cs-nav-link">Gallery</a>
+                    <a href="/pricegallery/" class="cs-nav-link">Massages</a>
                 </li>
                 <li class="cs-nav-li">
                     <a href="/reviews/" class="cs-nav-link">Reviews</a>
+                </li>
+                 <li class="cs-nav-li">
+                    <a href="/contactus/" class="cs-nav-link">Contact</a>
                 </li>
             </ul>
             <!--Social-->
             <ul class="cs-social">
                 <li class="cs-social-li">
-                    <a href="{{client.socials.facebook}}" class="cs-social-link" aria-label="Visit Facebook" target="_blank" rel="noopener">
+                    <a href="{{client.socials.facebook}}" target="_blank" rel="noopener" class="cs-social-link" aria-label="Visit Facebook" target="_blank" rel="noopener">
                         <img class="cs-social-icon cs-default" src="/assets/svgs/facebook.svg" alt="icon" loading="lazy" decoding="async" width="24" height="24" aria-hidden="true">
-                    </a>
-                </li>
-                <li class="cs-social-li">
-                    <a href="{{client.socials.twitter}}" class="cs-social-link" aria-label="Visit Twitter" target="_blank" rel="noopener">
-                        <img class="cs-social-icon cs-default" src="/assets/svgs/twitter.svg" alt="icon" loading="lazy" decoding="async" width="24" height="24" aria-hidden="true">
-                    </a>
-                </li>
-                <li class="cs-social-li">
-                    <a href="{{client.socials.instagram}}" class="cs-social-link" aria-label="Visit Instagram" target="_blank" rel="noopener">
-                        <img class="cs-social-icon cs-default" src="/assets/svgs/instagram.svg" alt="icon" loading="lazy" decoding="async" width="24" height="24" aria-hidden="true">
-                    </a>
-                </li>
-                <li class="cs-social-li">
-                    <a href="{{client.socials.youtube}}" class="cs-social-link" aria-label="Visit YouTube" target="_blank" rel="noopener">
-                        <img class="cs-social-icon cs-default" src="/assets/svgs/youtube.svg" alt="icon" loading="lazy" decoding="async" width="24" height="24" aria-hidden="true">
                     </a>
                 </li>
             </ul>
